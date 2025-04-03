@@ -7,18 +7,18 @@ body {
 }
 header {
   position: relative;
-  height: 200px; /* Definir a altura do header */
-  overflow: hidden; /* Para garantir que o conteúdo não extrapole */
+  height: 200px;
+  overflow: hidden;
 }
 
 header img {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%; /* Faz a imagem cobrir toda a largura */
-  height: 100%; /* Faz a imagem cobrir toda a altura */
-  object-fit: cover; /* Garante o ajuste sem distorção */
-  z-index: 1; /* Coloca a imagem abaixo dos outros elementos */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
 }
 
 header h1 {
@@ -26,19 +26,19 @@ header h1 {
   font-size: 50px;
   font-weight: 400;
   font-style: normal;
-  position: relative; /* Permite mover o elemento em relação à sua posição padrão */
-  z-index: 2; /* Garante que o texto esteja acima da imagem */
-  color: #333; /* Ajusta a cor do texto */
+  position: relative;
+  z-index: 2;
+  color: #333;
   padding: 10px 20px;
-  margin-top: 120px; /* Adiciona espaço acima do texto */
+  margin-top: 120px;
   border-radius: 5px;
 }
 
 nav {
   position: absolute;
-  top: 20px; /* Distância do topo */
-  right: 20px; /* Distância da direita */
-  z-index: 2; /* Garante que a navegação esteja acima da imagem */
+  top: 20px;
+  right: 20px;
+  z-index: 2;
 }
 
 nav a {
@@ -47,14 +47,18 @@ nav a {
   font-style: normal;
   margin-left: 15px;
   text-decoration: none;
-  color: #333; /* Ajuste da cor para contraste */
+  color: #333;
   font-weight: bold;
   text-decoration: none;
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
+
 .hero {
-  position: relative; /* Garante que a seção hero esteja no contexto correto */
-  z-index: 1; /* Fica atrás da imagem que invade */
+  position: relative;
+  z-index: 1;
   padding: 50px 20px;
   background-color: #ffffff;
 }
@@ -64,8 +68,8 @@ nav a {
   font-family: "IM Fell English SC", serif;
   font-weight: 300;
   font-style: normal;
-  margin-bottom: 20px; /* Espaço entre o título e o parágrafo */
-  text-align: left; /* Garante que o título esteja alinhado à esquerda */
+  margin-bottom: 20px;
+  text-align: left;
 }
 
 .hero p {
@@ -73,57 +77,62 @@ nav a {
   font-weight: 300;
   font-style: normal;
   font-size: 22px;
-  margin-top: 10px; /* Espaço entre o título e o parágrafo */
-  line-height: 1.8; /* Espaçamento entre linhas */
-  text-align: left; /* Garante que o texto do parágrafo esteja à esquerda */
-  max-width: 400px; /* Limita a largura do texto para criar quebras de linha */
-  word-wrap: break-word; /* Quebra palavras muito longas, se necessário */
+  margin-top: 10px;
+  line-height: 1.8;
+  text-align: left;
+  max-width: 400px;
+  word-wrap: break-word;
 }
 
 /* Estilo geral da seção "Sobre" */
 .about {
-  padding: 50px 20px;
+  /* padding: 50px 20px; */
   background-color: #f9f9f9;
 }
 
 .about-content h2 {
   font-family: "IM Fell English SC", serif;
-  text-align: center;
+  text-align: left;
   margin-bottom: 30px;
   font-size: 30px;
   color: #333;
 }
 
+.about {
+  padding: 20px;
+  background-image: url("../img/imgProdutos/colar.png");
+  background-position: center right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+}
+
+.about p {
+  max-width: 600px;
+  /* margin: 0 auto; */
+}
+
 /* Estilo do container para texto e imagem */
 .about-text-image {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 40px; /* Espaço entre texto e imagem */
+  align-items: end;
+  justify-content: start;
+  /* gap: 40px;  */
 }
 
 /* Estilo do texto */
 .about-text-image p {
-  flex: 1; /* O texto ocupa o máximo de espaço disponível */
   font-family: "Times New Roman";
   font-size: 20px;
   line-height: 1.8;
   color: #555;
-}
-
-/* Estilo da imagem */
-.about-text-image img {
-  flex: 1; /* A imagem ocupa o restante do espaço */
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
 }
 
 /* Responsividade para telas menores */
 @media (max-width: 768px) {
   .about-text-image {
-    flex-direction: column; /* Empilha texto e imagem */
+    flex-direction: column;
     text-align: center;
   }
 
@@ -132,17 +141,14 @@ nav a {
   }
 }
 
+/* Configurações para a seção do catálogo */
 .catalog {
   padding: 50px 20px;
   background-color: #f9f9f9;
-  background-image: url("augustine-wong-li0iC0rjvvg-unsplash 1.png"); /* Adiciona a imagem como fundo */
-  background-size: cover; /* A imagem cobre toda a área da seção */
-  background-position: center; /* Centraliza a imagem */
-  background-repeat: no-repeat; /* Garante que a imagem não se repita */
-}
-
-/* Configurações para a seção do catálogo */
-.catalog {
+  background-image: url("../img/imgProdutos/augustine-wong-li0iC0rjvvg-unsplash\ 1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* Estilo para alinhar os elementos da seção */
@@ -172,6 +178,8 @@ nav a {
   margin-top: 10px;
   font-size: 14px;
   color: #555;
+  font-weight: 700;
+  margin-right: 30px;
 }
 
 /* Estilizando o texto ao lado dos produtos */
@@ -194,18 +202,10 @@ nav a {
   color: #555;
 }
 
-.about {
-  padding: 20px;
-  background-color: #f8f8f8;
-}
-.about p {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
 .contact {
   padding: 20px;
   text-align: center;
+  background-color: #f8f8f8;
 }
 
 .contact h2 {
@@ -217,12 +217,13 @@ nav a {
 }
 
 .contact p {
-  flex: 1; /* O texto ocupa o máximo de espaço disponível */
+text-align: c;
   font-family: "Times New Roman";
   font-size: 20px;
   line-height: 1.8;
   color: #555;
 }
+
 .contact form {
   max-width: 400px;
   margin: 0 auto;
@@ -244,6 +245,10 @@ nav a {
   border-radius: 5px;
   cursor: pointer;
 }
+.contact button:hover {
+  background-color: #575757;
+}
+
 footer {
   text-align: center;
   padding: 10px;
