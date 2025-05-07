@@ -5,10 +5,12 @@ body {
   margin: 0;
   padding: 0;
   color: #333;
+  overflow-x: hidden;
 }
+
 header {
   position: relative;
-  height: 200px;
+  height: 250px;
   overflow: hidden;
 }
 
@@ -59,6 +61,7 @@ nav a:hover {
 
 main {
   padding: 2rem;
+  flex: 1;
 }
 
 form {
@@ -72,6 +75,44 @@ input,
 textarea {
   margin-bottom: 1rem;
   padding: 0.5rem;
+}
+
+.apresentacao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.apresentacao > div:first-child {
+  flex: 1;
+}
+
+.apresentacao > div:last-child img:first-child {
+  transform: translateY(-90px);
+}
+
+.apresentacao > div:last-child {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 200px;
+  align-items: flex-end;
+}
+
+.apresentacao h2 {
+  font-family: "IM Fell English SC", serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.apresentacao p {
+  font-family: "Times New Roman";
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 400px;
 }
 
 .conteudo-vendedoras {
@@ -91,7 +132,7 @@ textarea {
 }
 
 .galeria-produtos figure:nth-child(3) {
-  grid-column: 1 / 3; /* Faz a terceira imagem ocupar as duas colunas */
+  grid-column: 1 / 3;
   justify-self: center;
 }
 
@@ -99,7 +140,6 @@ textarea {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  /* object-fit: cover; */
 }
 
 /* Torna a primeira imagem maior */
@@ -108,12 +148,47 @@ textarea {
   height: 200px;
 }
 
+.galeria-produtos figure.media img {
+  width: 180px;
+  height: 180px;
+}
+
+.destaques {
+  width: 100vw;
+  /* height: 0%; */
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+
+  background-image: url("../img/imgPaginaInicial/fundoMarmore.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  padding: 40px 20px 0 0;
+  box-sizing: border-box;
+}
 
 .texto-vendedoras {
   flex: 1;
   max-width: 600px;
+  margin-right: 15px;
+  margin-top: -80px;
 }
 
+.texto-vendedoras h3 {
+  font-family: "IM Fell English SC", serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.texto-vendedoras p {
+  font-family: "Times New Roman";
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
 
 @media (max-width: 600px) {
   nav {
@@ -125,6 +200,6 @@ textarea {
 footer {
   text-align: center;
   padding: 10px;
-  background-color: #E3E1E1;
+  background-color: #e3e1e1;
   color: #000000;
 }
