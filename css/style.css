@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Darker+Grotesque:wght@300..900&family=IM+Fell+English+SC&display=swap");
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+header {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+header img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+header h1 {
+  font-family: "IM Fell English SC", serif;
+  font-size: 50px;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  z-index: 2;
+  color: #333;
+  padding: 10px 20px;
+  margin-top: 120px;
+  border-radius: 5px;
+}
+
+nav {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 2;
+}
+
+nav a {
+  font-family: "IM Fell English SC", serif;
+  font-weight: 300;
+  font-style: normal;
+  margin-left: 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+input,
+textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+.conteudo-vendedoras {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  flex-wrap: wrap; /* Para responsividade */
+}
+
+.galeria-produtos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 2px;
+  justify-items: center;
+  align-items: center;
+}
+
+.galeria-produtos figure:nth-child(3) {
+  grid-column: 1 / 3; /* Faz a terceira imagem ocupar as duas colunas */
+  justify-self: center;
+}
+
+.galeria-produtos img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  /* object-fit: cover; */
+}
+
+/* Torna a primeira imagem maior */
+.galeria-produtos figure.grande img {
+  width: 200px;
+  height: 200px;
+}
+
+
+.texto-vendedoras {
+  flex: 1;
+  max-width: 600px;
+}
+
+
+@media (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #E3E1E1;
+  color: #000000;
+}
