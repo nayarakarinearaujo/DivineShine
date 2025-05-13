@@ -1,6 +1,5 @@
 /* Estilo geral da seção "Sobre" */
 .about {
-  /* padding: 50px 20px; */
   background-color: #f9f9f9;
 }
 
@@ -14,7 +13,6 @@
 
 .about {
   padding: 20px;
-  background-image: url("../img/imgProdutos/colar.png");
   background-position: center right;
   background-size: contain;
   background-repeat: no-repeat;
@@ -23,16 +21,17 @@
 
 .about p {
   max-width: 600px;
-  /* margin: 0 auto; */
 }
 
 /* Estilo do container para texto e imagem */
 .about-text-image {
   display: flex;
-  align-items: end;
-  justify-content: start;
-  /* gap: 40px;  */
+  flex-direction: row;
+  align-items: flex-start; 
+  justify-content: flex-start;
+  gap: 40px; 
 }
+
 
 /* Estilo do texto */
 .about-text-image p {
@@ -41,16 +40,4 @@
   line-height: 1.8;
   color: #555;
   text-align: left;
-}
-
-/* Responsividade para telas menores */
-@media (max-width: 768px) {
-  .about-text-image {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .about-text-image img {
-    margin-top: 20px;
-  }
 }
