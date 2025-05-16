@@ -1,22 +1,22 @@
-document.addEventListener('DOMContentLoaded', () => {
-  const form = document.getElementById('form-contato');
-  if (form) {
-    form.addEventListener('submit', (e) => {
-      const nome = document.getElementById('nome').value.trim();
-      const email = document.getElementById('email').value.trim();
-      const mensagem = document.getElementById('mensagem').value.trim();
+function enviarFormulario(event) {
+  event.preventDefault();
 
-      if (!nome || !email || !mensagem) {
-        e.preventDefault();
-        alert('Por favor, preencha todos os campos!');
-      }
-    });
+  const inNome = document.getElementById("inNome");
+  const inEmail = document.getElementById("inEmail");
+  const inMensagem = document.getElementById("inMensagem");
+
+  const nome = inNome.value.trim();
+  const email = inEmail.value.trim();
+  const mensagem = inMensagem.value.trim();
+
+  if (!nome || !email || !mensagem) {
+    alert("Por favor, preencha todos os campos!");
+    inNome.focus();
+    return;
   }
 
-  // const main = document.querySelector('main');
-  // if (main) {
-  //   main.addEventListener('click', () => {
-  //     main.style.backgroundColor = '#f4f4f4';
-  //   });
-  // }
-});
+  console.log(nome); // Aqui você vê o nome no console
+}
+
+const btnEnviar = document.getElementById("btnEnviar");
+btnEnviar.addEventListener("click", enviarFormulario);

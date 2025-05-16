@@ -1,5 +1,7 @@
 /* Estilo geral da seção "Sobre" */
 .about {
+  display: flex;
+  justify-content: center;
   background-color: #f9f9f9;
 }
 
@@ -27,11 +29,10 @@
 .about-text-image {
   display: flex;
   flex-direction: row;
-  align-items: flex-start; 
+  align-items: flex-start;
   justify-content: flex-start;
-  gap: 40px; 
+  gap: 40px;
 }
-
 
 /* Estilo do texto */
 .about-text-image p {
@@ -40,4 +41,9 @@
   line-height: 1.8;
   color: #555;
   text-align: left;
+}
+
+.about-text-image img {
+  width: 300px;
+   border-radius: 8px;
 }

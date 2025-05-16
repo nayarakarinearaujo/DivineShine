@@ -1,11 +1,29 @@
 /* Configurações para a seção do catálogo */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
 .catalog {
   padding: 50px 20px;
   background-color: #f9f9f9;
-  background-image: url("../img/imgProdutos/augustine-wong-li0iC0rjvvg-unsplash\ 1.png");
+  background-image: url("../../img/imgPaginaInicial/fundoMarmore.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  border-radius: 8px;
 }
 
 /* Estilo para alinhar os elementos da seção */
@@ -14,13 +32,15 @@
   justify-content: space-between;
   align-items: flex-start;
   gap: 40px;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 /* Estilizando os itens do catálogo */
 .catalog-items {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  text-align: center;
   gap: 20px;
   flex: 2;
 }

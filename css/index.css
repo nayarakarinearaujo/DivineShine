@@ -155,6 +155,9 @@ textarea {
 }
 
 .destaques {
+  display: flex;
+  justify-content: center;
+  
   width: 100vw;
   position: relative;
   left: 50%;
