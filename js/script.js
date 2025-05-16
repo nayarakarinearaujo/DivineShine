@@ -1,3 +1,12 @@
+/*
+✅ Dois efeitos interativos JS/jQuery: 	
+Ex: alternar tema, botão de scroll suave, alerta ao enviar formulário
+? Ideias
+* fazer scroll suave ?
+* Envio de formulário com feedback
+* Fazer a função que atualiza o ano no footer
+*/
+
 function enviarFormulario(event) {
   event.preventDefault();
 
