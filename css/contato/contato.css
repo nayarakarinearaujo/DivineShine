@@ -1,5 +1,5 @@
 /* Configurações para a seção do contato */
-
+/* Configurações para a seção do catálogo */
 html,
 body {
   height: 100%;
@@ -17,11 +17,24 @@ main {
   flex: 1;
 }
 
-.contact {
-  padding: 20px;
-  text-align: center;
-  background-color: #f8f8f8;
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 950px;
+  width: 100%;
+  padding: 10px;
+   background-color: #f8f8f8;
    border-radius: 8px;
+}
+
+/* Estilo básico */
+aside {
+  max-width: 400px;
+  padding: 10px;
+  flex: 1;
 }
 
 .contact h2 {
@@ -40,12 +53,23 @@ main {
   color: #555;
 }
 
+.contact-redes-sociais {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
 .contact form {
-  max-width: 400px;
-  margin: 0 auto;
+  flex: 1;
+  margin: 10 auto;
   display: flex;
   flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  padding: 0 10px;
 }
+
 .contact input,
 .contact textarea {
   margin-bottom: 10px;

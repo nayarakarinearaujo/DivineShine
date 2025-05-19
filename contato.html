@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/index-responsividade.css" />
     <link rel="stylesheet" href="css/contato/contato.css" />
+    <link rel="stylesheet" href="css/contato/contato-reponsivo.css" />
   </head>
   <body>
     <header>
@@ -27,30 +28,44 @@
     <main>
       <section class="contact" id="contato">
         <h2>Contato</h2>
-        <p>
-          Queremos ouvir você! Na Divine Shine, acreditamos que cada cliente é
-          especial, e estamos aqui para ajudar em tudo o que precisar. Seja para
-          esclarecer dúvidas, fazer um pedido personalizado, estamos à
-          disposição.
-        </p>
-        <p>
-          <a href="#"
-            ><img src="img/favicon/icons8-instagram-43.png" alt="" srcset=""
-          /></a>
-          <a href="#"
-            ><img src="img/favicon/icons8-facebook-43.png" alt="" srcset=""
-          /></a>
-        </p>
-        <form>
-          <input id="inNome" type="text" name="nome" placeholder="Nome" />
-          <input id="inEmail" type="email" name="email" placeholder="Email" />
-          <textarea id="inMensagem" name="mensagem" rows="5" placeholder="Mensagem"></textarea>
-          <button id="btnEnviar" type="submit">Enviar</button>
-        </form>
+        <div class="contact-container">
+          <aside>
+            <p>
+              Queremos ouvir você! Na Divine Shine, acreditamos que cada cliente
+              é especial, e estamos aqui para ajudar em tudo o que precisar.
+              Seja para esclarecer dúvidas, fazer um pedido personalizado,
+              estamos à disposição.
+            </p>
+            <p class="contact-redes-sociais">
+              <a href="#"
+                ><img
+                  src="img/favicon/icons8-instagram-43.png"
+                  alt=""
+                  srcset=""
+              /></a>
+              <a href="#"
+                ><img src="img/favicon/icons8-facebook-43.png" alt="" srcset=""
+              /></a>
+            </p>
+          </aside>
+
+          <form>
+            <input id="inNome" type="text" name="nome" placeholder="Nome" />
+            <input id="inEmail" type="email" name="email" placeholder="Email" />
+            <textarea
+              id="inMensagem"
+              name="mensagem"
+              rows="5"
+              placeholder="Mensagem"
+            ></textarea>
+            <button id="btnEnviar" type="submit">Enviar</button>
+          </form>
+        </div>
       </section>
     </main>
+
     <footer>
-      <p>&copy; 2023 Divine Shine - Todos os direitos reservados</p>
+      <p id="footer"></p>
     </footer>
 
     <script src="js/script.js"></script>

@@ -7,6 +7,9 @@ Ex: alternar tema, botão de scroll suave, alerta ao enviar formulário
 * Fazer a função que atualiza o ano no footer
 */
 
+const currentYear = document.getElementById("footer");
+currentYear.innerHTML = `&copy; ${new Date().getFullYear()} Divine Shine - Todos os direitos reservados`;
+
 function enviarFormulario(event) {
   event.preventDefault();
 
