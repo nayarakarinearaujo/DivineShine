@@ -68,8 +68,8 @@ Durante o desenvolvimento, foram reforçados conceitos como:
 
 <img src="../ProjetoMapaFront/img/imgProjetoCompleto/home.png" alt="Página Inicial" width="300" />
 <img src="../ProjetoMapaFront/img/imgProjetoCompleto/sobre.png" alt="Página Sobre" width="342" />
-<img src="../ProjetoMapaFront/img/imgProjetoCompleto/produtos.png" alt="Página Sobre" width="300" height="300"/>
-<img src="../ProjetoMapaFront/img/imgProjetoCompleto/contato.png" alt="Página Sobre" width="340" height="300"/>
+<img src="../ProjetoMapaFront/img/imgProjetoCompleto/produtos.png" alt="Página Produtos" width="300" height="300"/>
+<img src="../ProjetoMapaFront/img/imgProjetoCompleto/contato.png" alt="Página Contato" width="340" height="300"/>
 
 ---
 
