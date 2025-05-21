@@ -1,4 +1,6 @@
-# 💎 Divine Shine
+# 🌟 Divine Shine
+
+> Um site fictício de joias, elegante e responsivo, criado com HTML, CSS e JavaScript.
 
 Projeto de um website responsivo criado como parte da disciplina de **Programação Front-End**, com foco em HTML5, CSS3 e JavaScript.
 
@@ -33,11 +35,11 @@ O site é composto por 4 páginas principais:
 
 ## 📸 Funcionalidades Implementadas
 
-✔️ Layout responsivo para diferentes dispositivos  
-✔️ Menu de navegação funcional entre páginas  
-✔️ Formulário com validação usando JavaScript  
-✔️ Dois efeitos interativos (ex: foco, alertas, validação)  
-✔️ SEO básico com uso de `<meta>` e estrutura semântica
+- ✅ **Layout responsivo** para diferentes dispositivos
+- ✅ **Menu de navegação funcional** entre páginas
+- ✅ **Formulário com validação** usando JavaScript
+- ✅ **Efeitos interativos**, como foco e alertas
+- ✅ **SEO básico** com uso de `<meta>` e elementos semânticos
 
 ---
 
@@ -64,9 +66,10 @@ Durante o desenvolvimento, foram reforçados conceitos como:
 
 ## 📷 Capturas de Tela
 
-*(Inclua aqui algumas imagens do seu site pronto, por exemplo da home, do formulário funcionando, e da visualização mobile)*
-
-![Página Inicial](../ProjetoMapaFront/img/imgProjetoCompleto/home.png)
+<img src="../ProjetoMapaFront/img/imgProjetoCompleto/home.png" alt="Página Inicial" width="300" />
+<img src="../ProjetoMapaFront/img/imgProjetoCompleto/sobre.png" alt="Página Sobre" width="342" />
+<img src="../ProjetoMapaFront/img/imgProjetoCompleto/produtos.png" alt="Página Sobre" width="300" height="300"/>
+<img src="../ProjetoMapaFront/img/imgProjetoCompleto/contato.png" alt="Página Sobre" width="340" height="300"/>
 
 ---
 
@@ -80,4 +83,4 @@ Desenvolvedora Front-End em formação
 
 ## 📜 Licença
 
-Projeto acadêmico — sem fins comerciais.
+Projeto desenvolvido para fins acadêmicos, sem fins comerciais.
