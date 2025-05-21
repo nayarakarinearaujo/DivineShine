@@ -1,12 +1,4 @@
 /* Configurações para a seção do contato */
-/* Configurações para a seção do catálogo */
-html,
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
 body {
   display: flex;
   flex-direction: column;
@@ -23,11 +15,11 @@ main {
   justify-content: center;
   align-items: center;
   margin: 20px auto;
-  max-width: 950px;
+  max-width: 1000px;
   width: 100%;
   padding: 10px;
-   background-color: #f8f8f8;
-   border-radius: 8px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
 }
 
 /* Estilo básico */
@@ -62,7 +54,7 @@ aside {
 
 .contact form {
   flex: 1;
-  margin: 10 auto;
+  margin: 20px auto 0 auto;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -87,4 +79,14 @@ aside {
 }
 .contact button:hover {
   background-color: #575757;
+}
+
+#mensagemFeedback {
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  min-height: 1.5em;
+}
+#mensagemFeedback.visible {
+  opacity: 1;
 }

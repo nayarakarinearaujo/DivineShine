@@ -71,7 +71,7 @@
 
   nav a {
     margin: 5px 0;
-     font-size: 1rem;
+    font-size: 1rem;
   }
 
   .apresentacao {
@@ -94,8 +94,10 @@
 
   .texto-vendedoras {
     margin: 0;
+    margin-left: 10px;
     text-align: center;
     padding: 15px;
+    max-width: 480px;
   }
 }
 
@@ -147,8 +149,13 @@
   }
 
   .texto-vendedoras {
-    margin: 0;
+    margin: 0 auto;
     text-align: center;
     padding: 15px;
+    max-width: 500px;
+  }
+
+  footer {
+    font-size: 14px;
   }
 }
