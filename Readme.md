@@ -1,75 +1,86 @@
-# 🌟 Divine Shine
+# 🌟 Divine Shine – Joias Exclusivas
 
-> Um site fictício de joias, elegante e responsivo, criado com HTML, CSS e JavaScript.
+## 📄 Documentação Técnica - Projeto Front-End
 
-Projeto de um website responsivo criado como parte da disciplina de **Programação Front-End**, com foco em HTML5, CSS3 e JavaScript.
+### 📝 Descrição do Projeto
+**Divine Shine** é um site fictício de uma joalheria, desenvolvido como parte da disciplina de **Programação Front-End**.
 
----
+O projeto tem como objetivo demonstrar a aplicação dos conhecimentos adquiridos sobre **HTML5, CSS3 e JavaScript**, explorando a criação de uma interface **elegante, responsiva e funcional**.
 
-## 📌 Sobre o Projeto
-
-**Divine Shine** é um site fictício de joias criado com o objetivo de demonstrar a aplicação de conceitos fundamentais do desenvolvimento Front-End. A proposta foi construir uma interface moderna, responsiva e funcional, com um layout elegante voltado para um público que valoriza exclusividade e sofisticação.
-
----
-
-## 🌐 Tecnologias Utilizadas
-
-- **HTML5** — estruturação do conteúdo
-- **CSS3** — estilização e responsividade
-- **JavaScript** — interatividade
-- **Responsividade** — via media queries
-- **SEO básico** — com meta tags e uso semântico de elementos HTML
+O foco foi oferecer uma **experiência visual agradável**, com navegação fluida e interatividade, alinhada às melhores práticas de desenvolvimento Front-End, **acessibilidade e SEO**.
 
 ---
 
-## 📁 Estrutura de Páginas
-
-O site é composto por 4 páginas principais:
-
-- `index.html` — Página inicial com apresentação da marca e destaques
-- `sobre.html` — Informações sobre a empresa ou marca
-- `produtos.html` — Galeria de produtos oferecidos
-- `contato.html` — Formulário de contato com validação JavaScript
+## 🌐 Tecnologias e Ferramentas Utilizadas
+- 🔹 **HTML5** – Estruturação semântica do conteúdo.
+- 🔹 **CSS3** – Estilização, layout responsivo e efeitos visuais.
+- 🔹 **JavaScript** – Interatividade, manipulação de eventos e validação de formulário.
+- 🔹 **Media Queries** – Responsividade para diferentes dispositivos e tamanhos de tela.
+- 🔹 **SEO Básico** – Meta tags, elementos semânticos e otimização de conteúdo.
 
 ---
 
-## 📸 Funcionalidades Implementadas
+## 📁 Arquitetura e Estrutura de Páginas
 
-- ✅ **Layout responsivo** para diferentes dispositivos
-- ✅ **Menu de navegação funcional** entre páginas
-- ✅ **Formulário com validação** usando JavaScript
-- ✅ **Efeitos interativos**, como foco e alertas
-- ✅ **SEO básico** com uso de `<meta>` e elementos semânticos
-
----
-
-## 🎯 Objetivos do Projeto
-
-- Consolidar os conhecimentos adquiridos na disciplina
-- Praticar a integração entre HTML, CSS e JavaScript
-- Desenvolver um site que funcione bem em dispositivos móveis
-- Aplicar boas práticas de acessibilidade e SEO
+| Página          | Descrição                                                                 |
+|-----------------|---------------------------------------------------------------------------|
+| `index.html`    | Página inicial com apresentação da marca, banners e destaques.           |
+| `sobre.html`    | Informações sobre a empresa, seus valores e missão.                      |
+| `produtos.html` | Galeria de produtos com imagens, descrições e detalhes.                  |
+| `contato.html`  | Formulário de contato funcional, com validação feita via JavaScript.     |
 
 ---
 
-## 🧠 Aprendizados
+## 🧠 Funcionalidades e Recursos Implementados
+- ✅ **Layout Responsivo:** Adaptação automática para desktop, tablet e mobile utilizando **Flexbox** e **Media Queries**.
+- ✅ **Menu de Navegação:** Disponível em todas as páginas, com links funcionais e destaque no item ativo.
+- ✅ **Formulário de Contato:**
+  - Validação com **JavaScript** para garantir o preenchimento correto.
+  - Mensagens de erro dinâmicas.
+- ✅ **Interatividade com JavaScript:**
+  - Efeitos de foco nos campos do formulário.
+  - Alertas de confirmação de envio.
+  - Realce em elementos de navegação.
+- ✅ **SEO e Acessibilidade:**
+  - Uso de `<meta>` tags (`title`, `description`, `viewport`, `charset`).
+  - Estrutura semântica com `<header>`, `<main>`, `<section>`, `<footer>`, entre outros.
+  - Atributos `alt` em imagens para acessibilidade.
+- ✅ **Imagens Otimizadas:** Melhor performance e carregamento rápido.
 
-Durante o desenvolvimento, foram reforçados conceitos como:
+---
 
-- Organização de arquivos e boas práticas de estrutura
-- Criação de layout fluido com `flexbox`
-- Validação de formulários com `JavaScript`
-- Navegação entre páginas com links HTML
-- Uso de imagens otimizadas para web
+## 🎨 Decisões de Design e Desenvolvimento
+- Paleta de cores sofisticada, alinhada à proposta de uma marca de joias.
+- Tipografia elegante, priorizando legibilidade e harmonia visual.
+- Layout modular com hierarquia clara de informações.
+- Navegação simples e intuitiva, com foco na **experiência do usuário**.
+- Implementação de **responsividade mobile-first**.
+
+---
+
+## 🚧 Desafios e Soluções
+
+| Desafio                                        | Solução Aplicada                                                                          |
+|------------------------------------------------|-------------------------------------------------------------------------------------------|
+| Garantir responsividade em todas as seções     | Uso combinado de **Flexbox** e **Media Queries**                                          |
+| Validação de formulário sem bibliotecas externas | Implementação manual de funções **JavaScript**                                            |
+| Otimizar imagens mantendo qualidade            | Compressão via ferramentas online e uso de formatos adequados (`.jpeg`, `.png`, `.svg`)   |
+| Manter navegação fluida entre as páginas       | Criação de menus fixos e consistência na estrutura HTML                                   |
+
+---
+
+## 🎯 Objetivos Alcançados
+- ✔️ Aplicação prática dos conceitos de **HTML5**, **CSS3** e **JavaScript**.
+- ✔️ Desenvolvimento de um site completamente **responsivo**.
+- ✔️ Implementação de **interatividade** básica com JavaScript.
+- ✔️ Adoção de práticas de **SEO** e **acessibilidade**.
+- ✔️ Entrega de um código **organizado, comentado e estruturado**.
 
 ---
 
 ## 📷 Capturas de Tela
 
-<img src="../ProjetoMapaFront/img/imgProjetoCompleto/home.png" alt="Página Inicial" width="300" />
-<img src="../ProjetoMapaFront/img/imgProjetoCompleto/sobre.png" alt="Página Sobre" width="342" />
-<img src="../ProjetoMapaFront/img/imgProjetoCompleto/produtos.png" alt="Página Produtos" width="300" height="300"/>
-<img src="../ProjetoMapaFront/img/imgProjetoCompleto/contato.png" alt="Página Contato" width="340" height="300"/>
+![Página Inicial](./img/imgProjetoCompleto/home.png)
 
 ---
 
