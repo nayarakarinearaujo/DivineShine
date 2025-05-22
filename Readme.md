@@ -90,8 +90,15 @@ O foco foi oferecer uma **experiência visual agradável**, com navegação flui
 Desenvolvedora Front-End em formação  
 [LinkedIn](https://www.linkedin.com/in/nayarakarine-araujo/) | [GitHub](https://github.com/nayarakarinearaujo)
 
+
+
 ---
 
 ## 📜 Licença
 
 Projeto desenvolvido para fins acadêmicos, sem fins comerciais.
+
+
+### 🔗 Acessar o site Divine Shine
+[Deploy](https://divineshine.vercel.app/)
+
