@@ -18,7 +18,7 @@ main {
   max-width: 1000px;
   width: 100%;
   padding: 10px;
-  background-color: #f8f8f8;
+  /* background-color: #f8f8f8; */
   border-radius: 8px;
 }
 
@@ -48,9 +48,12 @@ aside {
 .contact-redes-sociais {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 10px;
   margin-top: 20px;
+  color: #E3E1E1;
 }
+
 
 .contact form {
   flex: 1;
@@ -66,19 +69,23 @@ aside {
 .contact textarea {
   margin-bottom: 10px;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: none;
+  background-color: #F5F5F5;
   border-radius: 5px;
 }
+
 .contact button {
   padding: 10px;
-  background-color: #333;
-  color: #fff;
+  background-color: #c7c7c7;
+  color: #333;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
 }
 .contact button:hover {
-  background-color: #575757;
+  background-color: #999898;
 }
 
 #mensagemFeedback {
