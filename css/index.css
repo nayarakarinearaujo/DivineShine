@@ -47,7 +47,6 @@ nav {
 nav a {
   font-family: "IM Fell English SC", serif;
   font-size: 1.2rem;
-  font-weight: 300;
   font-style: normal;
   margin-left: 15px;
   text-decoration: none;
@@ -148,7 +147,7 @@ textarea {
   width: 200px;
   height: 200px;
 }
-
+/* Torna a segunda imagem maior */
 .galeria-produtos figure.media img {
   width: 180px;
   height: 180px;
@@ -157,7 +156,7 @@ textarea {
 .destaques {
   display: flex;
   justify-content: center;
-  
+
   width: 100vw;
   position: relative;
   left: 50%;
