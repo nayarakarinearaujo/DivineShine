@@ -1,4 +1,3 @@
-
 /* Responsividade para tablets */
 @media (max-width: 1024px) {
   .catalog-content {
@@ -8,12 +7,12 @@
   }
 
   .catalog-items {
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .catalog-text {
     padding: 15px;
-    max-width: 100%; 
+    max-width: 100%;
   }
 
   .catalog-text h2 {
@@ -28,7 +27,7 @@
 /* Responsividade para celulares */
 @media (max-width: 480px) {
   .catalog-content {
-    flex-direction: column; 
+    flex-direction: column;
     gap: 20px;
     padding: 20px;
   }

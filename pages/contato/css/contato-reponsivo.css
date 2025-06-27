@@ -1,8 +1,7 @@
-
 /* Para telas maiores: lado a lado */
 @media (min-width: 768px) {
   .contact-container {
-    flex-direction: row; 
+    flex-direction: row;
     align-items: flex-start;
     justify-content: center;
     font-size: 0.8rem;
